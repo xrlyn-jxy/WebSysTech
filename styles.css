@@ -1,0 +1,147 @@
+/* Hover effect to indicate clickable sections */ 
+.collapsible-header {
+    cursor: pointer;
+    font-weight: bold;
+    color: #003366;
+}
+
+.collapsible-header:hover {
+    color: #f1c40f;
+}
+
+.collapsible-header i {
+    margin-left: 10px;
+    color: #003366;
+}
+
+.collapsible-header:hover i {
+    color: #f1c40f;
+}
+
+/* Style for collapsed/expanded icons */
+.collapsed i {
+    transform: rotate(0deg);
+}
+
+.expanded i {
+    transform: rotate(180deg);
+}
+
+/* Additional styling for the product cards */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.price {
+    color: #f1c40f;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Custom styles for Budget Beauty Bliss theme */
+body {
+    background-color: #fff7f9; /* Soft pink for a beauty theme */
+    font-family: 'Roboto', sans-serif; /* New font for body text */
+    color: #333333;
+}
+
+.navbar {
+    background-color: #ff69b4; /* Vibrant pink representing beauty and energy */
+}
+
+.navbar-brand {
+    color: #ffffff !important; /* White for text contrast */
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif; /* New font for navbar brand */
+}
+
+.nav-link {
+    color: #ffffff !important; /* White for text contrast */
+    font-family: 'Roboto', sans-serif; /* New font for links */
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffd700 !important; /* Gold hover effect */
+}
+
+.jumbotron {
+    background-color: #ffd700; /* Gold background */
+    color: #ff69b4; /* Pink text */
+    font-family: 'Poppins', sans-serif; /* New font for hero text */
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.jumbotron p {
+    font-size: 1.2rem;
+}
+
+/* Section Headers */
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #003366;
+    margin-bottom: 1rem;
+}
+
+/* Product Cards */
+.card-body {
+    background-color: #ffffff;
+}
+
+.card-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.card-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.price {
+    color: #f1c40f;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #ff69b4; /* Pink button */
+    border-color: #ff69b4;
+    font-family: 'Roboto', sans-serif; /* Button font */
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #ffd700; /* Gold hover effect */
+    border-color: #ffd700;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #003366;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding: 1rem 0;
+}
